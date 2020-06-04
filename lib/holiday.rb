@@ -90,7 +90,7 @@ holiday_hash.collect do |season, holiday|
  holiday.collect do |celebration, supplies|
     holiday_name = celebration.to_s.split("_").map do |word|
        word.capitalize
-    end.join
+    end.join(" ")
     
    
   
