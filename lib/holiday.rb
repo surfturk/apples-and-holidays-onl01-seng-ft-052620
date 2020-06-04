@@ -92,7 +92,7 @@ holiday_hash.collect do |season, holiday|
        word.capitalize
     end.join(" ")
     
-   puts holiday_name
+   puts holiday_name + supplies
    
   end 
 end  
