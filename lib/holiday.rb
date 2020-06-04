@@ -90,7 +90,7 @@ holiday_hash.collect do |season, holiday|
  holiday.collect do |celebration, supplies|
  
   celebration.to_s.split("_") 
-  binding.pry
+  
   end 
 end  
 end
