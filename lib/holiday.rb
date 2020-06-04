@@ -88,7 +88,7 @@ holiday_hash.collect do |season, holiday|
     
  puts season.to_s.capitalize! + ":"
  holiday.collect do |celebration, supplies|
- bing.pry
+ bindng.pry
   split(celebration) 
   
   end 
