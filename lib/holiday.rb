@@ -89,7 +89,7 @@ holiday_hash.collect do |season, holiday|
  puts season.to_s.capitalize! + ":"
  holiday.collect do |celebration, supplies|
  
-  split(celebration) 
+  split(to_s.celebration) 
   
   end 
 end  
