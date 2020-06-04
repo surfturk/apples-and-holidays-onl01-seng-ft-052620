@@ -92,11 +92,7 @@ holiday_hash.collect do |season, holiday|
   puts "  " + celebration.to_s.split.capitalize.join + ": " + supplies.join(", ") 
   
   end 
-  
-
- 
- 
- end  
+end  
 end
 
 
