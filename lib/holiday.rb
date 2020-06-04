@@ -88,7 +88,8 @@ holiday_hash.collect do |season, holiday|
     
  puts season.to_s.capitalize! + ":"
  holiday.collect do |celebration, supplies|
- 
+    holiday_name = celebration.to_s.split("_")
+    
   puts celebration.to_s.split("_") 
   
   end 
