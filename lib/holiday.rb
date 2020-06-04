@@ -88,9 +88,13 @@ holiday_hash.collect do |season, holiday|
     
  puts season.to_s.capitalize! + ":"
  holiday.collect do |celebration, supplies|
-  
+  1) holiday_supplies_hash #all_supplies_in_holidays should output the formatted list of holidays and their supplies
+     Failure/Error: puts "  " + celebration.to_s.split.capitalize.join + ": " +supplies.join(", ")
+
+     NoMethodError:
+       undefined method `capitalize' for ["christmas"]:Array
   split(celebration) 
-  binding.pry
+  
   end 
 end  
 end
