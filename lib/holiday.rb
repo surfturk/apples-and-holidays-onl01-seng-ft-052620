@@ -88,11 +88,11 @@ holiday_hash.collect do |season, holiday|
     
  puts season.to_s.capitalize! + ":"
  holiday.collect do |celebration, supplies|
-   
+   binding.pry
   puts "  " + celebration.split.capitalize.join + ": " + supplies.join(", ") 
   
   end 
-  binding.pry
+  
 
  
  
